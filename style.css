@@ -1,0 +1,46 @@
+*{
+    background-color: #6699CC;
+}
+h1{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+.choices{
+    height: 12rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    height: 9rem;
+    width: 9rem;
+}
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 3rem;
+}
+.user-score,.comp-score{
+    font-size: 5rem;
+   
+}
+.any{
+    font-size: 23px;
+}
+.ans{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
